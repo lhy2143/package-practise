@@ -1,0 +1,39 @@
+{
+  "name": "package-practise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:babel": "babel babel/entry/dir --out-dir babel/output/dir",
+    "build:babel-ts": "babel babel/entry/main.ts --out-file babel/output/main.js",
+    "build:gulp": "gulp build",
+    "build:tsc": "tsc tsc/entry/foo.ts --module es2015 --target es5 --outDir tsc/output ",
+    "build:rollup": "rollup -c",
+    "build:webpack": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "date-fns": "^2.22.1",
+    "esbuild": "^0.12.8",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-arrow-functions": "^7.13.0",
+    "@babel/preset-typescript": "^7.14.5",
+    "rollup": "^2.52.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "webpack": "^5.41.0",
+    "webpack-cli": "^4.7.2"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","sources":["../../entry/cmj/foo.js","../../entry/cmj/index.js"],"sourcesContent":["module.exports = 'hello world';\r\n","const foo = require('./foo');\r\nmodule.exports = function () {\r\n  console.log(foo);\r\n};\r\n"],"names":[],"mappings":";;;EAAA,OAAc,GAAG,aAAa;;SCChB,GAAG,YAAY;EAC7B,EAAE,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;EACnB;;;;;;;;"}

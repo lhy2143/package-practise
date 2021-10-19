@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","sources":["../../entry/esm/foo.js","../../entry/esm/index.js"],"sourcesContent":["export default 'hello world';\r\n","import foo from './foo';\r\nexport default function () {\r\n  console.log(foo);\r\n}\r\n"],"names":[],"mappings":";;;AAAA,YAAe,aAAa;;ECCb,cAAQ,IAAI;EAC3B,EAAE,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;EACnB;;;;;;;;"}
